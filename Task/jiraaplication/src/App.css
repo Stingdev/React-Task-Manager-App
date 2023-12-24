@@ -1,0 +1,83 @@
+.App{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-form{
+  display: flex;
+  flex-direction: column;
+}
+.task-input{
+  border-radius: 10px;
+  padding: 7px;
+  border: 1px solid black;
+}
+.task-create{
+  width: 450px;
+}
+.task-label{
+  margin: 10px 0px;
+}
+.task-button{
+  margin: 10px 0px;
+  border: 1px solid green;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 9px;
+  background-color: green;
+}
+.task-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.task-items{
+  width: 200px;
+  height:280px ;
+  border: 2px solid purple;
+  margin: 30px 30px;
+  padding: 32px 70px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.task-items:hover{
+  transition: all 0.4ms;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 5);
+
+}
+.update-button{
+  background-color: blueviolet;
+}
+.sil-button{
+    background-color: red;
+    color: white;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 1px solid red;
+    width: 60px;
+}
+.güncelle-button{
+  background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 1px solid blue;
+}
+.task-head{
+  margin-bottom: 5px;
+
+}
+.task-updated{
+  width: 100%;
+}
